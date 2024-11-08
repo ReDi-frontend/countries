@@ -4,6 +4,7 @@
     --light-body-bg: #fafafa;
     --element-bg: #fff;
     --search-color: #848484;
+    --transition-time: 0.4s;
 }
 
 
@@ -37,7 +38,7 @@ body {
     line-height: 16px;
     background-color: var(--light-body-bg);
     color: var(--text-color);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color var(--transition-time) ease, color var(--transition-time) ease;
 }
 
 img {
@@ -139,6 +140,9 @@ ul {
     flex-grow: 1;
     padding-top: 48px;
     padding-bottom: 45px;
+}
+.country-page-main-content {
+    padding-top: 80px;
 }
 
 /* FILTERS */
