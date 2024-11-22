@@ -152,6 +152,9 @@ ul {
     justify-content: space-between;
     margin-bottom: 48px;
 }
+.filter-search-wrapper {
+    position: relative;
+}
 .filters-search-input {
     min-width: 480px;
     border-radius: 5px;
@@ -160,6 +163,12 @@ ul {
     padding: 18px 74px;
     background-color: var(--element-bg);
     color: var(--text-color);
+}
+.filters-search-icon {
+    position: absolute;
+    top: 17px;
+    left: 35px;
+    color: var(--search-color);
 }
 .filters-search-input::placeholder {
     color: var(--search-color);

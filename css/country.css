@@ -12,10 +12,11 @@
     margin-bottom: 80px;
 }
 .country-page-back-link {
+    position: relative;
     display: inline-flex;
     align-items: center;
     border-radius: 6px;
-    padding: 10px 39px 10px 32px;
+    padding: 10px 39px 10px 62px;
     color: var(--text-color);
     background-color: var(--element-bg);
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
@@ -29,6 +30,9 @@
 }
 
 .country-page-back-icon {
+    position: absolute;
+    top: 13.5px;
+    left: 30px;
     margin-right: 10px;
     width: 20px;
     height: 20px;
